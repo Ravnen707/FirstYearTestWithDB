@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="912.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label prefHeight="74.0" prefWidth="324.0" text="Bøf med Løg!">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="84.0" text="Tryk ind for antal personer for ingrediensliste.">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font></Label>
+      <ImageView fitHeight="173.0" fitWidth="302.0" layoutX="556.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../Pictures/boef-med-loeg.jpg" />
+      </image>
+   </ImageView>
+
+      <TextField fx:id="BPersEa" layoutX="34.0" layoutY="120.0" onAction="#BPersEach" />
+      <TextArea fx:id="OpskriftB" layoutX="34.0" layoutY="190.0" prefHeight="295.0" prefWidth="824.0" />
+      <Label layoutX="201.0" layoutY="124.0" text="Tryk Enter for at se ingredienslisten.">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

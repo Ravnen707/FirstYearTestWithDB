@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="67.0" layoutY="35.0" text="Andreas Kogebog!">
+         <font>
+            <Font name="Arial Bold" size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="134.0" text="1. Pasta Carbonara">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="253.0" text="Tast ind tallet for dit ønskede&#10;mad opskrift!">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="SearchBar" layoutX="31.0" layoutY="299.0" onAction="#searchbarOnAction" />
+      <Button layoutX="63.0" layoutY="339.0" mnemonicParsing="false" onAction="#buttonOnAction" text="Tryk Enter!" />
+      <ImageView fitHeight="213.0" fitWidth="389.0" layoutX="197.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/Food.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="31.0" layoutY="168.0" text="2. Bøf med Løg">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="200.0" text="3. Salat med Tun">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="227.0" text="4. All in one">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
